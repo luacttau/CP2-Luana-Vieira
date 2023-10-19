@@ -11,6 +11,9 @@ body {
     text-align: center;
 }
 
+main {
+    flex: auto;
+}
 
 .imagetext {
     font-size: 4em;
@@ -87,11 +90,11 @@ body {
 
 .bottomimages {
     display: flex;
-    width: fit-content;
 }
 
 .leftimage {
     position: relative;
+    width: 50%;
 }
 
 .whaletext {
@@ -106,6 +109,7 @@ body {
 
 .rightimage {
     position: relative;
+    width: 50%;
 }
 
 .skytext {
