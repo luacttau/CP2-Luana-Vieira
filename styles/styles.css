@@ -1,0 +1,200 @@
+body {
+    font-size: 62.5%;
+    background-color: rgb(182, 213, 233);
+    margin: 0%;
+}
+
+
+.header {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+
+.imagetext {
+    font-size: 4em;
+    color: #034365;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overtext {
+    font-size: 2em;
+    color: #034365;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.undertext {
+    font-size: 2em;
+    color: #034365;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.allpage {
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    font-size: 1.5em;
+}
+
+.conteudo1 {
+    padding-left: 8%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.number1 {
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.795);
+}
+
+.description1 {
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+
+.conteudo2 {
+    padding-left: 15%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.number2 {
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.795);
+}
+
+.description2 {
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+
+.bottomimages {
+    display: flex;
+    width: fit-content;
+}
+
+.leftimage {
+    position: relative;
+}
+
+.whaletext {
+    font-size: 1.5em;
+    padding: 1%;
+    color: #034365;
+    position:absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.rightimage {
+    position: relative;
+}
+
+.skytext {
+    text-align: center;
+    font-size: 2em;
+    padding: 8px;
+    color: white;
+    position:absolute;
+    top: 7%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.skyborder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 1.3em;
+    padding: 8px;
+    color: white;
+    position:absolute;
+    top: 16%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 550px) {
+    .skytext {
+        font-size: 1.5em;
+    }
+
+    .skyborder {
+        font-size: 1em;
+    }
+
+    .whaletext {
+        font-size: 1em;
+    }
+
+    .allpage {
+        font-size:1em ;
+    }
+
+    .imagetext {
+        font-size: 3em;
+    }
+
+    .overtext {
+        font-size: 1.5em;
+    }
+    
+    .undertext {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skytext {
+        font-size: 1em;
+    }
+
+    .skyborder {
+        font-size: 0.7em;
+    }
+
+    .whaletext {
+        font-size: 0.7em;
+    }
+
+    .allpage {
+        font-size: 0.8em;
+    }
+
+    .imagetext {
+        font-size: 2em;
+    }
+
+    .undertext {
+        font-size: 1.4em;
+        padding-bottom:30px;
+    }
+
+    .overtext {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .undertext {
+        padding-top: 11px;
+    }
+}
